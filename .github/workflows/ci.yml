@@ -1,4 +1,4 @@
-name: Release to Docker Hub
+name: Run CI
 
 on:
   push:
