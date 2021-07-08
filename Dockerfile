@@ -9,7 +9,7 @@ COPY go.sum .
 RUN go mod download
 
 # Copy the source code
-COPY *.go .
+COPY main.go .
 
 # Build
 RUN go build -o /docker-gs-ping
